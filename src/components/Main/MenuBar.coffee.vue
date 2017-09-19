@@ -1,22 +1,18 @@
 <template lang="pug">
-div.main-page
-  menu-bar
+div menu
 </template>
 
 <script lang="coffee">
-import MenuBar from './MenuBar'
-
 export default {
-  name: 'main-page'
+  name: 'menu-bar'
   components: {
-    MenuBar
   }
   data: -> {
   }
 }
 </script>
 
-<style lang="stylus">
-.main-page
+<style lang="stylus" scoped>
+.header
   display: block;
 </style>
